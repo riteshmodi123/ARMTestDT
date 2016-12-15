@@ -5,18 +5,21 @@
     "adminUsername": {
       "type": "string",
       "minLength": 1,
+      "defaultValue": "citynextadmin",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
+      "defaultValue": "citynext!1234",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
     },
     "dnsNameForPublicIP": {
       "type": "string",
+      "defaultValue": "somenonsense",
       "minLength": 1,
       "metadata": {
         "description": "Globally unique DNS Name for the Public IP used to access the Virtual Machine."
